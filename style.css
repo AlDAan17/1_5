@@ -1,0 +1,65 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body {
+    margin: 0;
+    font-family: 'TT Lakes';
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+a {
+    color: #1B1C21;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 320px) {
+
+    .swiper-header {
+        padding: 16px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        text-transform: uppercase;
+        color: #7E7E82;
+        font-weight: 400;
+    }
+
+    .swiper-wrapper{
+
+    }
+
+    .swiper-slide{
+        background: #F2F2F2;
+        height: 154px;
+        width: 300px;
+    }
+
+    .swiper-item{
+        height: 72px;
+        width: 240px;
+        margin: 16px;
+        background: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        border-radius: 6px;
+    }
+}
