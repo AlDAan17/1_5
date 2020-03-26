@@ -51,52 +51,48 @@
                 <img class="swiper-button" src="images/swiper-button.svg" alt="button">
             </div>
         </div>
-        <div class="swiper-slide">
+        <div class="swiper-slide" id="slide-viewsonic">
             <div class="swiper-item">
                 <img class="swiper-logo" src="images/viewsonic.svg" alt="viewsonic">
                 <img class="swiper-button" src="images/swiper-button.svg" alt="button">
             </div>
         </div>
-        <div class="swiper-slide">
+        <div class="swiper-slide" id="slide-sony">
             <div class="swiper-item">
                 <img class="swiper-logo" src="images/sony.png" alt="sony">
                 <img class="swiper-button" src="images/swiper-button.svg" alt="button">
             </div>
         </div>
-        <div class="swiper-slide">
+        <div class="swiper-slide" id="slide-lenovo">
             <div class="swiper-item">
                 <img class="swiper-logo" src="images/lenovo.svg" alt="lenovo">
                 <img class="swiper-button" src="images/swiper-button.svg" alt="button">
             </div>
         </div>
-        <div class="swiper-slide">
+        <div class="swiper-slide" id="slide-samsung">
             <div class="swiper-item">
                 <img class="swiper-logo" src="images/samsung.png" alt="samsung">
                 <img class="swiper-button" src="images/swiper-button.svg" alt="button">
             </div>
         </div>
-        <div class="swiper-slide">
-            <div class="swiper-item">
+        <div class="swiper-slide" id="slide-apple">
+            <div class="swiper-item swiper-item-special">
                 <img class="swiper-logo" src="images/apple.svg" alt="apple">
                 <img class="swiper-button" src="images/swiper-button.svg" alt="button">
             </div>
         </div>
-    </div>
+        <button onclick="showMore()" class="swiper-more" id="btn-more">
+            <img class="swiper-more-button" src="images/show-more.svg" alt="">
+            <span id="swiper-shwomore">Показать все</span>
+        </button>
+    </div>  <!-- End swiper-wrapper -->
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
 </div>
 <script src="./swiper.js"></script>
-<script src="./app.js.js"></script>
+<script src="./app.js"></script>
 
-<script>
-     var swiper = new Swiper('.swiper-container', {
-         pagination: {
-             el: '.swiper-pagination',
-             slidesPerView: 'auto'
-         },
 
-     });
-</script>
 </body>
 </html>
 
