@@ -8,17 +8,49 @@ if (document.body.clientWidth < 768) {
     });
 }
 
+const viewsonic = document.getElementById("slide-viewsonic");
+const sony = document.getElementById("slide-sony");
+const lenovo = document.getElementById("slide-lenovo");
+const samsung = document.getElementById("slide-samsung");
+const apple = document.getElementById("slide-apple");
+// const btnMore = document.getElementById("btn-more");
+const btnText = document.getElementById("swiper-showmore");
+const btnImg = document.querySelector(".swiper-more-button");
+const btnMore = document.querySelector("#btn-more");
+const slide = document.getElementsByClassName("swiper-slide");
+
+btnMore.addEventListener('click', function () {
+    for (let i = 0; i < slide.length; i++){
+        debugger
+        if(slide.classList.contains('slide-open')){
+            slide.classList.remove('slide-open');
+            btnText.textContent = "Показать все";
+            btnImg.style.transform = "rotate(0deg)";
+        }else{
+            slide.classList.add('slide-open');
+            btnText.textContent = "Скрыть";
+            btnImg.style.transform = "rotate(180deg)";
+        }
+    }
+});
+
+
+
+
+// btnMore.addEventListener('click', function () {
+//     if(slide.classList.contains('slide-open')){
+//         slide.classList.remove('slide-open');
+//         btnText.textContent = "Показать все";
+//         btnImg.style.transform = "rotate(0deg)";
+//     }else{
+//         slide.classList.add('slide-open');
+//         btnText.textContent = "Скрыть";
+//         btnImg.style.transform = "rotate(180deg)";
+//     }
+// });
+
 function showMore() {
-    const viewsonic = document.getElementById("slide-viewsonic");
-    const sony = document.getElementById("slide-sony");
-    const lenovo = document.getElementById("slide-lenovo");
-    const samsung = document.getElementById("slide-samsung");
-    const apple = document.getElementById("slide-apple");
-    // const btnMore = document.getElementById("btn-more");
-    const btnText = document.getElementById("swiper-showmore");
-    const slide = document.querySelector(".swiper-slide:nth-child(7)");
-    const btnImg = document.querySelector(".swiper-more-button");
-    const btnMore = document.querySelector("#btn-more");
+
     // const slide = document.querySelector('.swiper-slide');
 
     // btnMore.addEventListener('click', ()=>{
@@ -30,17 +62,7 @@ function showMore() {
     //     slide.classList.add('slide-open');
     // }));
 
-    btnMore.addEventListener('click', function () {
-        if(slide.classList.contains('slide-open')){
-            slide.classList.remove('slide-open');
-            btnText.textContent = "Показать все";
-            btnImg.style.transform = "rotate(0deg)";
-        }else{
-            slide.classList.add('slide-open');
-            btnText.textContent = "Скрыть";
-            btnImg.style.transform = "rotate(180deg)";
-        }
-    });
+
 
     // if (viewsonic.style.display === "none"){
     //     viewsonic.style.display = "flex";
