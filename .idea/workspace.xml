@@ -27,7 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project 2" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -43,7 +43,13 @@
       <workItem from="1585108051398" duration="9064000" />
       <workItem from="1585134012237" duration="16329000" />
       <workItem from="1585198170182" duration="5514000" />
-      <workItem from="1585228505059" duration="5495000" />
+      <workItem from="1585228505059" duration="7567000" />
+      <workItem from="1585294442286" duration="5541000" />
+      <workItem from="1585375481895" duration="8840000" />
+      <workItem from="1585400771419" duration="5401000" />
+      <workItem from="1585468267023" duration="2020000" />
+      <workItem from="1585539691414" duration="2451000" />
+      <workItem from="1585543567159" duration="3422000" />
     </task>
     <servers />
   </component>
@@ -55,16 +61,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1585122609232">
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1585546817374">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="295" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1585122609232" />
+    <state x="740" y="295" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1585546817374" />
   </component>
 </project>

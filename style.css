@@ -52,7 +52,13 @@ ul {
     .swiper-slide{
         background: #F2F2F2;
         height: 154px;
-        width: 80% !important;
+        /*width: 80% !important;*/
+        width: auto !important;
+    }
+
+    .swiper-slide:nth-child(10),
+    .swiper-slide:nth-child(11){
+        display: none;
     }
 
     .swiper-pagination-bullet:nth-child(10),
@@ -120,19 +126,21 @@ ul {
 
     .swiper-more{
         display: flex;
+        width: 100%;
         background: inherit;
         font-weight: 600;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.2px;
         color: #1B1C21;
+    }
 
+    .slide-open{
+        display: flex !important;
     }
 
     .swiper-more-button{
         margin: auto 10px auto 32px;
-        /*margin-left: 32px;*/
-        /*margin-right: 14px;*/
     }
 }
 

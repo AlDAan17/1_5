@@ -51,7 +51,7 @@
                 <img class="swiper-button" src="images/swiper-button.svg" alt="button">
             </div>
         </div>
-        <div class="swiper-slide" id="slide-viewsonic">
+        <div class="swiper-slide" id="slide-viewsonic" id="sw">
             <div class="swiper-item">
                 <img class="swiper-logo" src="images/viewsonic.svg" alt="viewsonic">
                 <img class="swiper-button" src="images/swiper-button.svg" alt="button">
@@ -81,17 +81,17 @@
                 <img class="swiper-button" src="images/swiper-button.svg" alt="button">
             </div>
         </div>
-        <button onclick="showMore()" class="swiper-more" id="btn-more">
+        <button class="swiper-more" id="btn-more" data-modal="sw">
             <img class="swiper-more-button" src="images/show-more.svg" alt="">
-            <span id="swiper-shwomore">Показать все</span>
+            <span id="swiper-showmore">Показать все</span>
         </button>
     </div>  <!-- End swiper-wrapper -->
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
 </div>
+
 <script src="./swiper.js"></script>
 <script src="./app.js"></script>
-
 
 </body>
 </html>
