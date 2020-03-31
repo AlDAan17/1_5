@@ -58,7 +58,7 @@ ul {
 
     .swiper-slide:nth-child(10),
     .swiper-slide:nth-child(11){
-        display: none;
+        /*display: none;*/
     }
 
     .swiper-pagination-bullet{
@@ -69,7 +69,7 @@ ul {
 
     .swiper-pagination-bullet:nth-child(10),
     .swiper-pagination-bullet:nth-child(11){
-        display: none;
+        /*display: none;*/
     }
 
     .swiper-item{

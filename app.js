@@ -7,13 +7,7 @@ if (document.body.clientWidth < 768) {
         }
     });
 }
-
-const viewsonic = document.getElementById("slide-viewsonic");
-const sony = document.getElementById("slide-sony");
-const lenovo = document.getElementById("slide-lenovo");
-const samsung = document.getElementById("slide-samsung");
 const apple = document.getElementById("slide-apple");
-// const btnMore = document.getElementById("btn-more");
 const btnText = document.getElementById("swiper-showmore");
 const btnImg = document.querySelector(".swiper-more-button");
 const btnMore = document.querySelector("#btn-more");
