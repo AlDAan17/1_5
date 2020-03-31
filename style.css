@@ -61,6 +61,12 @@ ul {
         display: none;
     }
 
+    .swiper-pagination-bullet{
+        background: #B5B6BC;
+        width: 12px;
+        height: 12px;
+    }
+
     .swiper-pagination-bullet:nth-child(10),
     .swiper-pagination-bullet:nth-child(11){
         display: none;
