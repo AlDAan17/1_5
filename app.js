@@ -21,13 +21,12 @@ const slide = document.getElementsByClassName("swiper-slide");
 
 btnMore.addEventListener('click', function () {
     for (let i = 0; i < slide.length; i++){
-        debugger
-        if(slide.classList.contains('slide-open')){
-            slide.classList.remove('slide-open');
+        if(slide[i].classList.contains('slide-open')){
+            slide[i].classList.remove('slide-open');
             btnText.textContent = "Показать все";
             btnImg.style.transform = "rotate(0deg)";
         }else{
-            slide.classList.add('slide-open');
+            slide[i].classList.add('slide-open');
             btnText.textContent = "Скрыть";
             btnImg.style.transform = "rotate(180deg)";
         }
